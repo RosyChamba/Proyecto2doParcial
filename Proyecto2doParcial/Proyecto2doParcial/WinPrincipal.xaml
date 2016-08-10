@@ -1,4 +1,4 @@
-﻿<Window x:Class="WinPrincipal"
+﻿<Window x:Name="WinLogin" x:Class="WinPrincipal"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="Iniciar Sesión" Height="350" Width="525" BorderBrush="#FFB2D1EC" Icon="key_login.ico">
     <Window.Background>
-        <ImageBrush ImageSource="Sources/FondoPantalla.bmp"/>
+        <ImageBrush ImageSource="pack://siteoforigin:,,,/Resources/FondoPantalla.bmp"/>
     </Window.Background>
     <Grid>
         <Button x:Name="btnAccept" Content="Aceptar" HorizontalAlignment="Left" Margin="146,236,0,0" VerticalAlignment="Top" Width="75" Background="#FF918A8A"/>

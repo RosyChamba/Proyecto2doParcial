@@ -1,11 +1,11 @@
-﻿<Window x:Name="WinVendedor1" x:Class="WinVendedor"
+﻿<Window x:Name="WinVendedor" x:Class="WinVendedor"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Proyecto2doParcial"
         mc:Ignorable="d"
-        Title="Ingreso Sistema : Vendedor" Height="329.143" Width="665.143" Icon="pack://siteoforigin:,,,/Resources/usuario.ico">
+        Title="Ingreso Sistema : Vendedor" Height="329.143" Width="665.143">
     <Window.Background>
         <ImageBrush ImageSource="pack://siteoforigin:,,,/Resources/FondoPantalla.bmp"/>
     </Window.Background>

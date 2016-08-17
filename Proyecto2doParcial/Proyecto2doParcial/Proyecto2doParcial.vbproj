@@ -73,13 +73,30 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Categoria.vb" />
+    <Compile Include="Cliente.vb" />
+    <Compile Include="Factura.vb" />
     <Compile Include="My Project\Resources.Designer.vb">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <Compile Include="Producto.vb" />
+    <Compile Include="Usuario.vb" />
     <Compile Include="WinFactura.xaml.vb">
       <DependentUpon>WinFactura.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WinListClientes.xaml.vb">
+      <DependentUpon>WinListClientes.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WinListFacturas.xaml.vb">
+      <DependentUpon>WinListFacturas.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WinListProductos.xaml.vb">
+      <DependentUpon>WinListProductos.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WinListUsuarios.xaml.vb">
+      <DependentUpon>WinListUsuarios.xaml</DependentUpon>
     </Compile>
     <Compile Include="WinVendedor.xaml.vb">
       <DependentUpon>WinVendedor.xaml</DependentUpon>
@@ -89,6 +106,22 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="WinFactura.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WinListClientes.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WinListFacturas.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WinListProductos.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WinListUsuarios.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
